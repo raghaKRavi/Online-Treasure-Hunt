@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.NavBar {
+  background-color: #0004;
+}
+
+/* .btn {
+  color: rgb(218, 165, 32);
+  margin-left: 20px;
+  font-weight: 900;
+} */
+
+.btn {
+  background: none;
+  color: rgb(218, 165, 32);
+  /* border: 2px solid #cad3ce !important; */
+  /* border-radius: 6px; */
+  cursor: pointer;
+  line-height: 1.5;
+  font: 900 1.2rem "Roboto Slab", sans-serif;
+  margin-left: 20px;
+  letter-spacing: 0.05rem;
+}
+
+.btn:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  border-radius: 50px;
+  transition: all 1s ease 0s;
+}
+
+@media all and (max-width: 990px) {
+  .NavBar {
+    background-color: rgb(252, 246, 246, 0.4);
+  }
+  .btn {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #ffffff;
+    /* background-color: #f5c058; */
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    float: right;
+    box-shadow: 0 8px 16px 0 #00000063, 0 6px 20px 0 #f6b83b63;
+    /* overflow: hidden;
+    border: none;
+    outline: none;
+    border-style: hidden; */
+  }
+}
