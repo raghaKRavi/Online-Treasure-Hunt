@@ -16,7 +16,11 @@ const LoginPage = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <ButtonComponent variant="outline-secondary" label="Login" />
+        <ButtonComponent
+          variant="outline-secondary"
+          label="Login"
+          className="loginButton"
+        />
       </Form>
       <h6>
         Not a User! <Link to="/signup">Sign-Up</Link>
