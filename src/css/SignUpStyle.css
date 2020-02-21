@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.signup-NavBar {
+  background-color: rgba(255, 160, 122, 0.37);
+}
+
+.signup-background {
+  background-image: url(../img/map.jpg);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  -webkit-animation: signup-background 6s ease-out infinite alternate-reverse
+    both;
+  animation: signup-background 6s ease-out infinite alternate-reverse both;
+}
+
+/* Animation for Background Image */
+@-webkit-keyframes signup-background {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+@keyframes signup-background {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+/*  */
+
+.signup-form {
+  position: absolute;
+  margin-top: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 160, 122, 0.37);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.signup-button {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(2, 2, 2);
+}
+
+h6 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  .signup-form {
+    width: 70%;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 320px) {
+  .signup-NavBar {
+    height: 54px;
+  }
+  .signup-form {
+    width: 90%;
+    height: 85%;
+    font-weight: bolder;
+    overflow: hidden;
+  }
+}
+@media (max-height: 580px) {
+  .signup-form {
+    width: 70%;
+    height: 87%;
+    font-weight: bolder;
+  }
+}
+@media (min-height: 1360px) and (min-width: 1020px) {
+  .signup-form {
+    width: 80%;
+    height: 40%;
+    font-weight: bolder;
+  }
+}
