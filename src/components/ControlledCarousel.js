@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 //Image Path
-import maps from "../img/aged-map.jpg";
+import maps from "../img/world-map.jpg";
 import compass from "../img/compass.jpg";
 import mountain from "../img/mountain.jpg";
 import tale from "../img/tale.jpg";

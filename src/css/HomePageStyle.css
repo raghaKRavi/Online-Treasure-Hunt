@@ -1,56 +1,58 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Slab", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Libre Baskerville", serif;
 }
 
 .NavBar {
-  background-color: #0004;
+  background-color: rgba(255, 160, 122, 0.37);
 }
 
-/* .btn {
-  color: rgb(218, 165, 32);
-  margin-left: 20px;
-  font-weight: 900;
-} */
+.navbar-light .navbar-toggler {
+  color: rgba(1, 0, 0);
+  border-color: rgba(0, 0, 0);
+}
 
-.btn {
+.home-btn {
   background: none;
-  color: rgb(218, 165, 32);
-  /* border: 2px solid #cad3ce !important; */
-  /* border-radius: 6px; */
+  color: rgb(7, 7, 7);
   cursor: pointer;
   line-height: 1.5;
-  font: 900 1.2rem "Roboto Slab", sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
   margin-left: 20px;
   letter-spacing: 0.05rem;
+  border-color: #6c757d;
 }
 
-.btn:hover {
+.home-btn:hover {
   color: #ffffff !important;
-  background: #f6b93b;
-  border-color: #f6b93b !important;
+  background: #6c757d;
+  border-color: #239e5679 !important;
   border-radius: 50px;
   transition: all 1s ease 0s;
 }
 
 @media all and (max-width: 990px) {
   .NavBar {
-    background-color: rgb(252, 246, 246, 0.4);
+    background-color: rgba(255, 160, 122, 0.37);
   }
-  .btn {
+  .home-btn {
     margin-top: 10px;
     margin-bottom: 12px;
-    color: #ffffff;
+    color: #1f1d1d;
     /* background-color: #f5c058; */
     width: 100%;
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
     float: right;
+    border-color: rgba(0, 0, 0, 0);
     box-shadow: 0 8px 16px 0 #00000063, 0 6px 20px 0 #f6b83b63;
-    /* overflow: hidden;
-    border: none;
-    outline: none;
-    border-style: hidden; */
   }
 }
