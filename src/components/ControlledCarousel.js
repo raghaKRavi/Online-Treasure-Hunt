@@ -2,12 +2,9 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 //Image Path
-import maps from "../img/world-map.jpg";
-import compass from "../img/compass.jpg";
-import mountain from "../img/mountain.jpg";
-import tale from "../img/tale.jpg";
-import scroll from "../img/scroll.jpg";
-import puzzle from "../img/puzzle.jpg";
+import monopoly from "../img/monopoly.jpg";
+import chess from "../img/mind.jpg";
+import directors from "../img/board-play.jpg";
 import "../css/ControlledCarouselStyle.css";
 
 const ControlledCarousel = props => {
@@ -21,29 +18,22 @@ const ControlledCarousel = props => {
 
   return (
     <Carousel
-      className={props.className}
+      className="frontPage-carousel"
       activeIndex={index}
       direction={direction}
       onSelect={handleSelect}
       interval={50000}
     >
-      <Carousel.Item>
-        <img className="d-block w-100" src={maps} alt="First slide" />
+      <Carousel.Item className="frontpage-carouselitem">
+        <img className="d-block w-100" src={monopoly} alt="First slide" />
         <Carousel.Caption style={{ color: "	RGB: (253,227,167)" }}>
           <h3>Treasure Hunt</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" src={tale} alt="Second slide" />
+        <img className="d-block w-100" src={directors} alt="Second slide" />
 
         <Carousel.Caption style={{ color: "	rgb:(41,41,41)" }}>
           <h3>Treasure Hunt</h3>
@@ -52,7 +42,7 @@ const ControlledCarousel = props => {
       </Carousel.Item>
 
       <Carousel.Item className="ml-auto">
-        <img className="d-block w-100" src={puzzle} alt="Third slide" />
+        <img className="d-block w-100" src={chess} alt="Third slide" />
 
         <Carousel.Caption className="caption">
           <h3>Treasure Hunt</h3>

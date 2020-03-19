@@ -12,7 +12,7 @@ import "../css/SignUpStyle.css";
 
 const SignUpPage = () => {
   return (
-    <div>
+    <div className="signup-body">
       <Navbar className="signup-NavBar fixed-top" expand="lg">
         <div className="container">
           <Navbar.Brand href="/" className="signup-logo">

@@ -16,7 +16,7 @@ import logo from "../logo/treasure-box 1.svg";
 
 const HomPage = () => {
   return (
-    <div className="body">
+    <div className="home-body">
       <Navbar className="NavBar fixed-top" expand="lg">
         <div className="container">
           <Navbar.Brand href="/">
@@ -56,7 +56,7 @@ const HomPage = () => {
         </div>
       </Navbar>
       {/* carousel */}
-      <ControlledCarousel clasName={"slideShow"} />
+      <ControlledCarousel clasName="slideShow" />
     </div>
   );
 };

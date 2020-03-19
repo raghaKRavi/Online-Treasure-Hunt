@@ -1,17 +1,17 @@
-.carousel-item {
+.frontPage-carousel .carousel-item {
   height: 100vh;
-  min-height: 300px;
+  min-height: 200px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
 }
 
-.carousel-caption {
+.frontPage-carousel .carousel-caption {
   background-color: rgba(255, 160, 122, 0.397);
 }
 
-.carousel-caption h3 {
+.frontPage-carousel .carousel-caption h3 {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -19,7 +19,7 @@
   font-weight: 900;
 }
 
-.carousel-caption p {
+.frontPage-carousel .carousel-caption p {
   width: 75%;
   margin: auto;
   font-size: 18px;
@@ -28,7 +28,7 @@
 }
 
 @media all and (max-width: 1820px) {
-  img {
+  .frontPage-carousel img {
     border-style: none;
     height: 100vh;
     background: no-repeat center center scroll;
@@ -38,17 +38,17 @@
 }
 
 @media (max-width: 900px) {
-  .carousel-caption {
+  .frontPage-carousel .carousel-caption {
     position: absolute;
     top: 30%;
     bottom: 10%;
   }
 }
 @media (max-width: 480px) {
-  .carousel-caption h3 {
+  .frontPage-carousel .carousel-caption h3 {
     font-size: 35px;
   }
-  .carousel-caption p {
+  .frontPage-carousel .carousel-caption p {
     font-size: 12px;
   }
 }

@@ -14,7 +14,7 @@ import ControlledCarousel from "./ControlledCarousel";
 
 const LoginPage = () => {
   return (
-    <div>
+    <div className="login-body">
       {/* NavBar elements */}
       <Navbar className="loginNavBar fixed-top" expand="lg">
         <div className="container">
