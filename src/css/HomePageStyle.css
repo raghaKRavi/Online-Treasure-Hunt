@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Libre Baskerville", serif;
+}
+
+.NavBar {
+  background-color: rgba(255, 160, 122, 0.37);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(1, 0, 0);
+  border-color: rgba(0, 0, 0);
+}
+
+.home-btn {
+  background: none;
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-left: 20px;
+  letter-spacing: 0.05rem;
+  border-color: #6c757d;
+}
+
+.home-btn:hover {
+  color: #ffffff !important;
+  background: #6c757d;
+  border-color: #239e5679 !important;
+  border-radius: 50px;
+  transition: all 1s ease 0s;
+}
+
+@media all and (max-width: 990px) {
+  .NavBar {
+    background-color: rgba(255, 160, 122, 0.37);
+  }
+  .home-btn {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #1f1d1d;
+    /* background-color: #f5c058; */
+    width: 100%;
+    padding: 15px;
+    font-size: 25px;
+    float: right;
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 8px 16px 0 #00000063, 0 6px 20px 0 #f6b83b63;
+  }
+}

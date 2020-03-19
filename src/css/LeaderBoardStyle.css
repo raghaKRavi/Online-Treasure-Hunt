@@ -1,0 +1,63 @@
+.leaderboard-column::-webkit-scrollbar {
+  width: 2px;
+}
+.leaderboard-column::-webkit-scrollbar-track {
+  background: #817777;
+}
+.leaderboard-column::-webkit-scrollbar-thumb {
+  background: rgb(19, 14, 14);
+}
+
+.leaderboard-column::-webkit-scrollbar-thumb :hover {
+  background: rgb(165, 48, 48);
+}
+
+.leaderboard-column {
+  /* float: right; */
+  width: 100%;
+  padding: 10px;
+  background-color: darkgoldenrod;
+
+  /* height: 500px; */
+  overflow-y: scroll;
+}
+
+/* .leaderboard-column h2 {
+  text-align: center;
+} */
+
+.closeButton {
+  background-color: rgba(255, 0, 0, 0.014);
+  border: none;
+  /* border-style: solid; */
+  font-size: 24px;
+  margin-top: -3px;
+  margin-bottom: 2px;
+  color: black;
+  height: 40px;
+  width: 50px;
+  padding-bottom: 30px;
+}
+
+.closeButton:hover {
+  color: #dddddd;
+  background-color: red;
+}
+
+.leaderboard-column table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.leaderboard-column td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leaderboard-column tr:nth-child(odd) {
+  background-color: #dddddd;
+}

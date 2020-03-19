@@ -5,12 +5,12 @@ const ButtonComponent = props => {
   return (
     <div>
       <Button
-        className="button"
+        className={props.className}
         variant={props.variant}
         onClick={props.handleClick}
         type={props.type}
       >
-        {props.label}
+        <span style={{ cursor: "pointer" }}>{props.label}</span>
       </Button>
     </div>
   );
