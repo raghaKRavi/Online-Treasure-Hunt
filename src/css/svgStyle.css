@@ -1,0 +1,130 @@
+.svg-userpage {
+  background-color: rgba(91, 102, 151, 0.781);
+  /* height: 500px;
+  width: 1100px; */
+  /* text-align: center; */
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+#newworld {
+  animation: world 80s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes world {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+#face {
+  animation: face 1s infinite alternate;
+  /* transform-origin: bottom;
+  transform-box: fill-box; */
+}
+
+#frontleglower {
+  animation: lowerFrontLeg 1.3s infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#frontlegupper {
+  animation: frontlegupper 1.3s infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#shoefrontleg {
+  animation: shoefrontleg 1.3s infinite alternate;
+  transform-origin: top;
+  /* transform-box: view-box; */
+}
+
+#backleglower {
+  animation: backlowerleg 1.3s infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#backlegupper {
+  animation: backupperleg 1.3s infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#shoebackleg {
+  animation: shoebackleg 1.3s infinite alternate;
+  transform-origin: top;
+}
+
+@keyframes face {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(10deg);
+  }
+}
+
+@keyframes lowerFrontLeg {
+  from {
+    transform: rotateZ(-15deg);
+  }
+  to {
+    transform: rotateZ(40deg);
+  }
+}
+
+@keyframes frontlegupper {
+  from {
+    transform: rotateZ(-3deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+
+@keyframes shoefrontleg {
+  from {
+    transform: rotateZ(-3deg);
+  }
+  to {
+    transform: rotateZ(9deg);
+  }
+}
+
+@keyframes backlowerleg {
+  from {
+    transform: rotateZ(56deg);
+  }
+
+  to {
+    transform: rotateZ(-3deg);
+  }
+}
+
+@keyframes backupperleg {
+  from {
+    transform: rotateZ(6deg);
+  }
+
+  to {
+    transform: rotateZ(-2deg);
+  }
+}
+
+@keyframes shoebackleg {
+  from {
+    transform: rotateZ(5deg);
+  }
+
+  to {
+    transform: rotateZ(0deg);
+  }
+}

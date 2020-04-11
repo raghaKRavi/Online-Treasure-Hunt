@@ -1,0 +1,41 @@
+.newHuntInformation {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.input-area-left,
+.input-area-right {
+  margin: 50px 0px;
+  padding: 30px;
+  background-color: olive;
+  width: 100%;
+}
+
+.input-area-right {
+  background-color: orangered;
+}
+
+.input-area-left .hunt-information {
+  /* width: 45%; */
+}
+
+.input-area-left #inputGroup-sizing-default {
+  background-color: mediumseagreen;
+  width: 100px;
+  font-weight: bold;
+}
+
+.input-area-left .dateForHunt {
+  display: flex;
+}
+
+.input-area-left #start-date,
+.input-area-left #end-date {
+  width: 310px;
+}
+
+.input-area-left #start-date {
+  margin-right: 10px;
+}

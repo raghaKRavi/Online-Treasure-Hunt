@@ -40,18 +40,24 @@ const UserHomePage = () => {
           <ul>
             <li>
               <a className="active" href="#" title="Home">
-                <i class="fa fa-home"></i>
+                <i class="fa fa-home" id="sidenav-icon"></i>
               </a>
             </li>
             <li>
               <a href="#" title="Active Hunts">
-                <i class="fa fa-puzzle-piece"></i>
+                <i
+                  class="fa fa-puzzle-piece sidenav-icon"
+                  id="sidenav-icon"
+                ></i>
               </a>
             </li>
             <li>
               <a href="#" title="Personal Hunts">
                 {" "}
-                <i class="fa fa-archive"></i>{" "}
+                <i
+                  class="fa fa-archive sidenav-icon"
+                  id="sidenav-icon"
+                ></i>{" "}
               </a>
             </li>
           </ul>
@@ -113,9 +119,18 @@ const UserHomePage = () => {
               <i className="fa fa-toggle-down toggleDownButton"></i>
             </Button>
           </div>
+          <LeaderBoard id="scoreBoard-info" style={style} onHide={hideMe} />
           {/* leaderboard ends here */}
 
-          <LeaderBoard id="scoreBoard-info" style={style} onHide={hideMe} />
+          {/* introduction text and svg*/}
+
+          <div className="intro-section">
+            <div className="intro-text">
+              <h2>Hello</h2>
+            </div>
+          </div>
+
+          {/* end of introduction text */}
 
           {/* personal hunt begin */}
           <div className="personalhunt-container">

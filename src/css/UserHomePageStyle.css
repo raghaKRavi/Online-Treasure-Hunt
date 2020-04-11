@@ -11,7 +11,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-top: 150px;
+  padding-top: 80px;
   text-align: center;
   background-color: lightgreen;
   width: 6%;
@@ -25,6 +25,10 @@
   color: rgb(204, 152, 41);
   padding: 25px 16px;
   text-decoration: none;
+}
+
+#sidenav-icon {
+  font-size: 25px;
 }
 
 .side-navbar li a.active {
@@ -42,17 +46,18 @@
 }
 
 .content-section {
-  margin-left: 8%;
+  margin-left: 6%;
   padding: 1px 1px;
   height: 1000px;
 }
 
 .top-navbar {
   top: 0;
+  margin-left: 1%;
 }
 
 .top-navbar form {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .userdetails {
@@ -213,12 +218,12 @@
   background-color: thistle;
 }
 
-.expandable {
-  transition: all 0.5s ease-in-out;
-  /* line-height: 0; */
-  /* padding: 0 1em; */
-  color: white;
-}
+/* .expandable {
+  transition: all 0.5s ease-in-out; */
+/* line-height: 0; */
+/* padding: 0 1em; */
+/* color: white;
+} */
 
 #scoreBoard-info {
   position: absolute;
@@ -231,9 +236,25 @@
   margin-top: 103px;
 }
 
+/* intro text */
+
+.intro-section {
+  background-color: palegoldenrod;
+  height: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.intro-text {
+  background-color: palevioletred;
+  width: 50%;
+}
+
+/* end intro text */
+
 .personalhunt-container {
   background-color: brown;
-  height: 500px;
+  height: 450px;
   padding-top: 10px;
   margin: 30px;
 }
